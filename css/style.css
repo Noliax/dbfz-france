@@ -1,0 +1,40 @@
+body{
+    background-color: #123456;
+}
+
+
+.announcement{
+    position:relative;
+    top:15px;
+}
+
+.announcement img{
+    position:relative;
+    left:10px;
+}
+
+.announcement .card{
+    color: #ffff;
+    background-color: #234567;
+    border: 2px solid;
+    border-color: #345678;
+}
+
+.announcement a.btn-secondary{
+    background-color: #456789;
+    border-color: #456789;
+}
+
+.announcement a.btn-secondary:hover{
+    background-color: #345678;
+    border-color: #345678;
+}
+
+.navbar{
+    color: #ffff;
+    background-color: #345678;
+}
+
+.navbar a{
+    color: #ffff;
+}
