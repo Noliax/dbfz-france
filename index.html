@@ -34,7 +34,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="pages/news.html">News</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -57,11 +57,27 @@
         </nav>
 
         <!-- Main container -->
-        <div class="container-fluid">
+        <div class="container-fluid mt-3">
             <div class='row'>
-
+                
+                <div class="col-lg-3 profile-col">
+                    <div class="card profile" style="position:relative; top:15px;">
+                        <div class="card-header">
+                            <h5 class="card-title">Ptitpote</h5>
+                        </div>
+                        <div class="card-text">
+                                <p class="card-body">
+                                    <img class="float-left mr-1" src="images/profile-pic-test.png" alt="profile pic"/>
+                                    Un des créateurs de DBFZ France et joueur au niveau discutable
+                                    <center>
+                                        <span class="badge badge-secondary">Hakaishin</span> <span class="badge badge-secondary">Kaioken</span>
+                                    </center>
+                                </p>
+                        </div>
+                    </div>
+                </div>
                 <!-- Main column -->
-                <div class='col-lg-8 '>
+                <div class="col-lg-6 main-col">
 
                     <!-- Homepage announcement card -->
                     <div class="announcement">
@@ -78,7 +94,37 @@
                                     Donec pulvinar arcu orci, vel...
                                 </p>
                                 <a href="#" class="btn btn-secondary">Plus d'info</a>
+                                <div class="float-right date">Publié le : day dd month - hh:mm:ss</div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="announcement">
+                        <img src="images/announcer.png" alt="Commentator" width="100"/>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="card-title">Mise en place d'un système d'annonces !</h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Aliquam viverra pretium scelerisque. Sed landit urna felis, id gravida est fermentum non. Nulla in tortor non 
+                                    nibh auctor elementum. Vestibulum libero justo, malesuada at orci ac, euismod maximus leo.
+                                    Donec pulvinar arcu orci, vel...
+                                </p>
+                                <a href="#" class="btn btn-secondary">Plus d'info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 secondary-col">
+                    <div class="card" style="position:relative; top:15px;">
+                        <div class="card-header">
+                            <h5 class="card-title">Vidéo de la semaine</h5>
+                        </div>
+                        <div class="card-text">
+                            <p class="card-body">
+                            <iframe src="https://www.youtube.com/embed/g31FC7tkM8g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </p>
                         </div>
                     </div>
                 </div>

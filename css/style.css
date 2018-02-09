@@ -13,7 +13,7 @@ body{
     left:10px;
 }
 
-.announcement .card{
+.card{
     color: #ffff;
     background-color: #234567;
     border: 2px solid;
@@ -34,5 +34,12 @@ body{
     background-color: #345678;
 }
 
-.navbar a{
+.secondary-col{
+    border-left: 1px solid #456789
+}
+
+.date{
+    color:#ffffff88;
+    position:relative;
+    bottom:-7px;
 }
