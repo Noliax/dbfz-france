@@ -34,12 +34,28 @@ body{
     background-color: #345678;
 }
 
-.secondary-col{
-    border-left: 1px solid #456789
-}
-
 .date{
     color:#ffffff88;
     position:relative;
     bottom:-7px;
+}
+
+.news-detail p.text-justify{
+    text-indent: 40px;
+}
+
+.news-detail p.first-par{
+    text-indent:0px;
+}
+
+span.lettrine{
+	font-size:4.9em;
+    text-indent:0;
+    font-weight: bold;
+    margin-right:0.1em;
+    position: relative;
+    top:-9px;
+    margin-bottom: 0px;
+    height: 1em;
+    margin-bottom: 0.1em;
 }
